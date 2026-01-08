@@ -1,7 +1,7 @@
 getRandomInt = (max) => Math.floor(Math.random() * max);
 // let getPlayerChoice = String(prompt("enter ur choice \n rock \n paper \n scissor \n or  else will random ")).toLowerCase;
 
-games();
+
 
  function Get_random(x){
     let y =getRandomInt(x);
@@ -51,6 +51,8 @@ games();
  function games (){  
    logic()
  }
+
+ games();
  
 
  //if highscore > (total round /2 ) game end
