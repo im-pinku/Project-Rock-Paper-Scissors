@@ -1,6 +1,8 @@
 getRandomInt = (max) => Math.floor(Math.random() * max);
 // let getPlayerChoice = String(prompt("enter ur choice \n rock \n paper \n scissor \n or  else will random ")).toLowerCase;
 
+games();
+
  function Get_random(x){
     let y =getRandomInt(x);
     console.log(y)
